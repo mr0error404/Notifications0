@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
                             .setContentTitle("Title")
                             .setAutoCancel(true)//
                             .setContentIntent(pendingIntent)
-                            .build();
+                            .build(); 
 
                     //setp 3 create Manager Notification
                     NotificationManager notificationManager = getSystemService(NotificationManager.class);

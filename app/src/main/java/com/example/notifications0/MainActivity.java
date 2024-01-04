@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
             }
         },15000);
         btn.setOnClickListener(new View.OnClickListener() {
-            @Override
+            @Override  
             public void onClick(View view) {
                 if(android.os.Build.VERSION.SDK_INT >= Build.VERSION_CODES.O){
                     // step 1 createChannel

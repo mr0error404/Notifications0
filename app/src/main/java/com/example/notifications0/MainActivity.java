@@ -90,7 +90,7 @@ public class MainActivity extends AppCompatActivity {
             PendingIntent pendingIntent = PendingIntent.getActivity(MainActivity.this,0,intent,PendingIntent.FLAG_IMMUTABLE);
             Notification notification1 = new Notification.Builder(MainActivity.this,"1")
                     .setSmallIcon(R.drawable.virus)
-                    .setContentText("////your MSG///// ")
+                    .setContentText("////your MSG///// ")      // r
                     .setContentTitle("Title")
                     .setAutoCancel(true)//
                     .setContentIntent(pendingIntent)
